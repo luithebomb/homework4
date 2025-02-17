@@ -30,7 +30,7 @@
     </div>
     <div class="form-control">
         <label for="amount">Enter Transaction Amount</label>
-        <input type="text" id="amount" v-model="text" placeholder="Enter Negative Value for Expenses">
+        <input type="text" id="amount" v-model="amount" placeholder="Enter Negative Value for Expenses">
     </div>
     <button class="btn">Add Transaction</button>
     </form>
