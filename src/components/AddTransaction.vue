@@ -8,12 +8,12 @@
     ])
 
     const onSubmit = ()=>{
-        const transactionsData = {
+        const transactionData = {
             text: text.value,
             amount: parseFloat(amount.value),
         }
 
-        emit('transactionSubmitted', transactionsData)
+        emit('transactionSubmitted', transactionData)
 
         text.value = ''
         amount.value = ''
